@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>My Calculator</title>
+<script src="Form.js"></script>
+
+<body>
+    <form>
+        <label>Name: </label>
+        <input type="text" id="Name" placeholder="name" onchange="validateName()" required />
+        <span id="one1" style="color:red"></span><br>
+        <label>Date of birth: </label>
+        <input type="text" id="dob" placeholder="Dob" onchange="validateDob()" required />
+        <span id="one2" style="color:red"></span><br>
+        <label>Phone no:</label>
+        <input type="text" id="Phone" placeholder="phoneno." onchange="validatePhone()" required />
+        <span id="one3" style="color:red"></span><br>
+        <label>Email: </label>
+        <input type="text" id="Email" placeholder="email" onchange="validateEmail()" required />
+        <span id="one4" style="color:red"></span><br>
+        <input type="button" id="sign" onClick="ab()" Value="Check" />
+
+
+    </form>
+</body>
+
+</html>

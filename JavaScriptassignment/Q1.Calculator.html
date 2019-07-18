@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title>My Calculator</title>
+<link rel="stylesheet" type="text/css" href="Calc.css">
+<script src="Calc.js"></script>
+
+<body>
+
+    <div class="one">
+        <h1>
+            <center>Calculator</center>
+        </h1>
+        <form name="Calculator">
+            <label>First number:</label>
+            <input type="text" id="firstNumber" placeholder="FirstNumber" onchange="change()" /><br>
+            <label>Second number:</label>
+            <input type="text" id="secondNumber" placeholder="SecondNumber" onchange="change()" /><br>
+            <label>Result:</label>
+            <input type="text" id="result" placeholder="Result" disabled /><br>
+            <input type="button" id="ad" onClick="calc('add')" Value="Add" disabled />
+            <input type="button" id="su" onClick="calc('sub')" Value="Substract" disabled />
+            <input type="button" id="mu" onClick="calc('mul')" Value="Multiply" disabled />
+            <input type="button" id="di" onClick="calc('divide')" Value="Divide" disabled />
+        </form>
+    </div>
+</body>
+
+</html>
